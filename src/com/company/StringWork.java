@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Locale;
+
 public class StringWork {
     public static void main(String[] args) {
         String firstname = "Jessica";
@@ -15,6 +17,8 @@ public class StringWork {
         System.out.println("Value at index 9 is "+fullname.charAt(9));
         System.out.println("First name is equal to Lastname "+isEquals);
         System.out.println("The length of fullname "+fullname.length());
+        System.out.println("Full name in uppercase "+fullname.toUpperCase());
+        System.out.println("Full name in lowercase "+fullname.toLowerCase());
 
         fullname=  fullname.replace("Jessica","Mamita");
 
